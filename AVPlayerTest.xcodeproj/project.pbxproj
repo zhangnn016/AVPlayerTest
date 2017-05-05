@@ -13,6 +13,7 @@
 		B50EE6C61EBC19B200A97E07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50EE6C41EBC19B200A97E07 /* Main.storyboard */; };
 		B50EE6C81EBC19B200A97E07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50EE6C71EBC19B200A97E07 /* Assets.xcassets */; };
 		B50EE6CB1EBC19B200A97E07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50EE6C91EBC19B200A97E07 /* LaunchScreen.storyboard */; };
+		B50EE6D41EBC1A2900A97E07 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50EE6D31EBC1A2900A97E07 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B50EE6C71EBC19B200A97E07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B50EE6CA1EBC19B200A97E07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B50EE6CC1EBC19B200A97E07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B50EE6D31EBC1A2900A97E07 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B50EE6D41EBC1A2900A97E07 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +47,7 @@
 			children = (
 				B50EE6BA1EBC19B200A97E07 /* AVPlayerTest */,
 				B50EE6B91EBC19B200A97E07 /* Products */,
+				B50EE6D21EBC1A2900A97E07 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +81,14 @@
 				B50EE6BC1EBC19B200A97E07 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B50EE6D21EBC1A2900A97E07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B50EE6D31EBC1A2900A97E07 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +231,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -260,7 +272,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -310,6 +322,7 @@
 				B50EE6D11EBC19B200A97E07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

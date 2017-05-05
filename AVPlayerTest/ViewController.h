@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) AVPlayer* player;
+@property (nonatomic, strong) AVPlayerItem* playerItem;
+
+@property (weak, nonatomic) IBOutlet UIView *container;
 
 @end
 
